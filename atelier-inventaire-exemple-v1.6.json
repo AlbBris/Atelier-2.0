@@ -1,0 +1,103 @@
+{
+  "format": "atelier-2.0",
+  "version": "1.6",
+  "type": "inventory",
+  "inventory": {
+    "items": [
+      {
+        "name": "Tasseau sapin 35 × 60 mm",
+        "category": "Bois",
+        "material": "Sapin",
+        "stock_type": "linear",
+        "unit": "barre",
+        "quantity": 6,
+        "length_mm": 3000,
+        "width_mm": 60,
+        "thickness_mm": 35,
+        "location": "Râtelier bois",
+        "unit_cost": 5.9,
+        "low_threshold": 2
+      },
+      {
+        "name": "Lame scie à onglet 216 mm",
+        "category": "Consommables",
+        "material": "Carbure",
+        "stock_type": "count",
+        "unit": "pièce",
+        "quantity": 2,
+        "location": "Meuble machines • Bac lames",
+        "low_threshold": 1
+      }
+    ],
+    "filaments": [
+      {
+        "code": "FIL-0001",
+        "brand": "Bambu Lab",
+        "range": "Basic",
+        "material": "PETG",
+        "color_name": "Noir",
+        "color_hex": "#191919",
+        "initial_weight_g": 1000,
+        "remaining_weight_g": 612,
+        "spool_weight_g": 250,
+        "price": 19.99,
+        "location": "Zone impression 3D • Étagère 2"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Visseuse",
+        "category": "Électroportatif",
+        "location": "Servante • Tiroir 1"
+      }
+    ],
+    "machines": [
+      {
+        "code": "MAC-0001",
+        "name": "Scie à onglet",
+        "category": "Découpe",
+        "brand": "Metabo",
+        "location": "Établi principal",
+        "status": "Disponible",
+        "power_w": 1800,
+        "kerf_mm": 3,
+        "capacity_mm": 305,
+        "last_maintenance": "2026-06-15",
+        "next_maintenance": "2026-09-15",
+        "maintenance_interval_days": 90,
+        "accessories": [
+          "Lame bois 60 dents",
+          "Butée de longueur"
+        ],
+        "maintenance_history": [
+          {
+            "date": "2026-06-15",
+            "type": "Nettoyage",
+            "cost": 0,
+            "notes": "Aspiration et contrôle de la lame",
+            "next_due": "2026-09-15"
+          }
+        ]
+      },
+      {
+        "code": "MAC-0002",
+        "name": "Bambu Lab A1",
+        "category": "Impression 3D",
+        "brand": "Bambu Lab",
+        "model": "A1",
+        "location": "Zone impression 3D",
+        "status": "Disponible",
+        "power_w": 350,
+        "capacity_mm": 256,
+        "last_maintenance": "2026-07-10",
+        "next_maintenance": "2026-08-10",
+        "maintenance_interval_days": 30,
+        "manual_url": "https://wiki.bambulab.com/en/a1",
+        "accessories": [
+          "Buse 0,4 mm",
+          "Plateau texturé PEI"
+        ]
+      }
+    ]
+  }
+}

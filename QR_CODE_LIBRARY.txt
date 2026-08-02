@@ -1,0 +1,4 @@
+QRCode.js — David Shim
+Source: https://github.com/davidshimjs/qrcodejs
+Licence: MIT
+Fichier embarqué: qrcode.min.js

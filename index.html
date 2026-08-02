@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#13262E">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Atelier 2.0">
+  <title>Atelier 2.0 — Stock, plan d’atelier, équipements et découpes</title>
+  <link rel="manifest" href="./manifest.webmanifest?v=170">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png?v=170">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=170">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=170">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./apple-touch-icon.png?v=170">
+  <link rel="stylesheet" href="styles.css?v=170">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <img src="logo-navbar.svg" class="brand-logo" alt="Atelier 2.0 — De l’idée à la fabrication">
+      <div class="topbar-actions">
+        <button class="icon-button" id="searchButton" type="button" aria-label="Rechercher">⌕</button>
+        <button class="avatar-button" type="button" aria-label="Profil">AB</button>
+      </div>
+    </header>
+    <aside class="sidebar" id="sidebar" aria-label="Navigation principale">
+      <div class="sidebar-brand"><img src="logo-navbar.svg" alt="Atelier 2.0"></div>
+      <nav class="sidebar-nav" id="sidebarNav"></nav>
+      <div class="sidebar-footer"><span>V1.7 • Plan atelier</span></div>
+    </aside>
+    <main id="mainContent" class="main-content" tabindex="-1"></main>
+    <nav class="bottom-nav" id="bottomNav" aria-label="Navigation mobile"></nav>
+    <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <div id="modalRoot"></div>
+    <input id="projectImportInput" type="file" accept="application/json,.json" class="hidden">
+    <input id="inventoryImportInput" type="file" accept="application/json,.json" class="hidden">
+    <input id="backupImportInput" type="file" accept="application/json,.json" class="hidden">
+  </div>
+  <script src="qrcode.min.js?v=170"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+  <script src="app.js?v=170"></script>
+</body>
+</html>

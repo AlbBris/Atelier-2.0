@@ -1,0 +1,104 @@
+{
+  "format": "atelier-2.0",
+  "version": "1.3",
+  "type": "project",
+  "project": {
+    "name": "Étagère murale avec supports 3D",
+    "category": "Projet mixte",
+    "description": "Étagère en tasseaux et supports imprimés en PETG.",
+    "icon": "🪵",
+    "dimensions_mm": {
+      "width_mm": 1200,
+      "depth_mm": 250,
+      "height_mm": 700
+    },
+    "requirements": [
+      {
+        "name": "Tasseau sapin 35 × 60 mm",
+        "category": "Bois",
+        "material": "Sapin",
+        "stock_type": "linear",
+        "unit": "mm",
+        "required_length_mm": 5200,
+        "width_mm": 60,
+        "thickness_mm": 35
+      },
+      {
+        "name": "Vis 5 × 80 mm",
+        "category": "Quincaillerie",
+        "stock_type": "count",
+        "unit": "pièce",
+        "required_quantity": 24
+      },
+      {
+        "name": "PETG noir",
+        "category": "Filament",
+        "material": "PETG",
+        "color": "Noir",
+        "stock_type": "weight",
+        "unit": "g",
+        "required_quantity": 160
+      }
+    ],
+    "pieces": [
+      {
+        "ref": "A",
+        "name": "Montant",
+        "type": "Découpe bois",
+        "material": "Tasseau 35 × 60 mm",
+        "quantity": 2,
+        "dimensions": {
+          "length_mm": 700,
+          "width_mm": 60,
+          "thickness_mm": 35
+        }
+      },
+      {
+        "ref": "B",
+        "name": "Traverse",
+        "type": "Découpe bois",
+        "material": "Tasseau 35 × 60 mm",
+        "quantity": 4,
+        "dimensions": {
+          "length_mm": 1200,
+          "width_mm": 60,
+          "thickness_mm": 35
+        }
+      }
+    ],
+    "prints": [
+      {
+        "name": "Support de tablette",
+        "quantity": 6,
+        "material": "PETG",
+        "color": "Noir",
+        "weight_g": 160,
+        "duration_hours": 8
+      }
+    ],
+    "assembly_steps": [
+      {
+        "order": 1,
+        "title": "Découper les éléments",
+        "description": "Découper et repérer les tasseaux."
+      },
+      {
+        "order": 2,
+        "title": "Assembler la structure",
+        "description": "Contrôler l’équerrage."
+      },
+      {
+        "order": 3,
+        "title": "Poser les supports imprimés",
+        "description": "Fixer les supports puis les tablettes."
+      }
+    ],
+    "expenses": [
+      {
+        "label": "Tablettes",
+        "category": "Bois",
+        "amount": 35
+      }
+    ]
+  }
+}

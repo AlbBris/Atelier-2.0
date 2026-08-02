@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" role="img" aria-labelledby="title desc">
+  <title id="title">Atelier 2.0</title>
+  <desc id="desc">Logo Atelier 2.0, atelier, impression 3D et réseau numérique.</desc>
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A58B74"/><stop offset="1" stop-color="#745E4D"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8 8)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 50 55 15l42 35v55H13Z" stroke="#FFFFFF" stroke-width="6"/>
+    <path d="M25 47 52 25v78H25Z" fill="url(#wood)" stroke="#8B7361" stroke-width="2"/>
+    <path d="M55 36v18M40 54h30M49 54v13h12V54M55 67v10" stroke="#FFFFFF" stroke-width="5"/>
+    <path d="M55 77 47 83l8 5 8-5Z" fill="#E2A23A" stroke="#E2A23A" stroke-width="3"/>
+    <path d="M96 60h13l12 12 13-15" stroke="#3D6F7A" stroke-width="4"/>
+    <circle cx="109" cy="60" r="5" fill="#F7F3EB" stroke="#3D6F7A" stroke-width="4"/>
+    <circle cx="121" cy="72" r="5" fill="#F7F3EB" stroke="#3D6F7A" stroke-width="4"/>
+    <circle cx="134" cy="57" r="5" fill="#F7F3EB" stroke="#3D6F7A" stroke-width="4"/>
+    <path d="M5 34h19M14 25v18M91 18v20" stroke="#8B7361" stroke-width="2" stroke-dasharray="5 5"/>
+  </g>
+  <text x="158" y="63" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="800" fill="#FFFFFF">Atelier <tspan fill="#E2A23A">2.0</tspan></text>
+  <path d="M160 76h260" stroke="#8B7361" stroke-width="2"/><circle cx="290" cy="76" r="4" fill="#FFFFFF"/>
+  <text x="159" y="103" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#D8C8BA">De l’idée à la fabrication</text>
+</svg>

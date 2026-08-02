@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Icône Atelier 2.0">
+  <rect width="128" height="128" rx="28" fill="#F7F3EB"/>
+  <path d="M20 57 62 22l42 35v51H20Z" fill="none" stroke="#1F1F1F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 54 58 32v74H31Z" fill="#8B7361" opacity=".9"/>
+  <path d="M62 43v16M48 59h28M56 59v13h12V59M62 72v11" fill="none" stroke="#1F1F1F" stroke-width="6" stroke-linecap="round"/>
+  <path d="m62 82-9 6 9 6 9-6Z" fill="#E2A23A"/>
+  <path d="M103 66h8l8 9" fill="none" stroke="#3D6F7A" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="103" cy="66" r="5" fill="#F7F3EB" stroke="#3D6F7A" stroke-width="4"/>
+  <circle cx="119" cy="75" r="5" fill="#F7F3EB" stroke="#3D6F7A" stroke-width="4"/>
+  <path d="M13 40h18M22 31v18" stroke="#8B7361" stroke-width="2" stroke-dasharray="5 5"/>
+</svg>
